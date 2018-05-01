@@ -1,0 +1,2 @@
+# SQL_overview
+This script uses mySQL in order to configure tables and data to the likes of the user. Through out the notebook you will notice an upward trend in difficulty within the material. The beginning starts off by naming and renaming columns of the data and searching for last names that contan certain letters. Farther down the script more difficult queries and joins are added into the mix. Look around and see if you can decipher what some of them are solving.
