@@ -64,8 +64,13 @@ Where first_name = "GROUCHO" and Actor_name = "GROUCHO WILLIAMS";
 
 -- Question 4d
 
-Alter table actor
-Add constraint first_name unique;
+Select
+	Case
+    when actor.first_name = "HARPO" then "GROUCHO"
+    when actor.first_name = "GROUCHO" then "MUCHO GROUCHO"
+    else actor.first_name
+End
+from actor;
 
 -- Question 5a
 
